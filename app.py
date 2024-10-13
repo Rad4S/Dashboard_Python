@@ -49,7 +49,7 @@ if not filtered_df.empty:
         st.markdown('### Import vs Export Transactions')
         fig, ax = plt.subplots()
         ax.pie(transaction_counts, labels=transaction_counts.index, autopct='%1.1f%%', 
-               colors=['blue', 'pink'])  # Matching colors
+               colors=['lightblue', 'pink'])  # Matching colors
         ax.axis('equal')
         st.pyplot(fig)
 
